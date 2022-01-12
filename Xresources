@@ -40,7 +40,7 @@
 !! URxvt Appearance
 !URxvt.font: xft:Libeartion mono:size=8
 !URxvt.font: xft:Mono:pixelsize=14:antialias=true
-URxvt.font: xft:Mono:pixelsize=12:antialias=true
+URxvt.font: xft:JetBrainsMono-Medium:pixelsize=12:antialias=true
 !URxvt.boldFont: xft:
 !URxvt.italicFont: xft:DejaVu Sans Mono:pixelsize=15,style=Book
 !URxvt.boldItalicfont: xft:DejaVu Sans Mono:pixelsize=15,style=Book
