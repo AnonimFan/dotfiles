@@ -17,9 +17,10 @@ alias \
 	f="$FILE" \
 	e="$EDITOR" \
 	v="$EDITOR" \
-	p="doas apt " \
-    l="ls -lia" \
-    la="ls -a"
+	p="doas pacman " \
+    l="ls -la" \
+    la="ls -a" \
+    lx="ls -ia"
 
 # adds color to commands.
 alias \
@@ -33,9 +34,9 @@ alias mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
 
 # Some other stuff
 alias \
-    xterm="urxvt" \
-    btop="btop -t -lc" \
+    #xterm="urxvt" \
+    btop="btop -lc" \
     bpytop="bpytop -lc" \
-    neofetch="neofetch --ascii_distro freebsd"
+    neofetch="neofetch --ascii_distro debian"
 
 
